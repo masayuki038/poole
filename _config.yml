@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               act-act
+tagline:
+url:                 http://masayuki038.github.io/
 paginate:            1
 baseurl:             ""
 
@@ -17,16 +17,25 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Masayuki Takahashi
+  url:               https://twitter.com/masayuki
+  email:             masayuki038@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/masayuki038
 
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-gist
+whitelist:
   - jekyll-gist
