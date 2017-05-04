@@ -65,6 +65,7 @@ pre code table tbody tr:nth-child(odd) th {
     padding-right: .75rem;
     padding-left: .25rem;
     color: #999;
+    overflow-x: visible; // tweak vertical positions of lineno 
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
        -moz-user-select: none;
