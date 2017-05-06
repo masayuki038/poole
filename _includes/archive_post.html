@@ -1,0 +1,4 @@
+{% capture category %}{{ post.categories | size }}{% endcapture %}
+<time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> "}}</time>
+<span class="title"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></span>
+

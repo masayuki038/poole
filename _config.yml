@@ -1,11 +1,13 @@
 # Permalinks
-permalink:           pretty
+#permalink:           pretty
+root: /
+permalink: /blog/:year/:month/:day/:title/
 
 # Setup
 title:               act-act
 tagline:
 url:                 http://masayuki038.github.io/
-paginate:            1
+#paginate:            1
 baseurl:             ""
 
 # Assets
@@ -34,8 +36,8 @@ kramdown:
   syntax_highlighter: rouge
   
 # Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-whitelist:
-  - jekyll-gist
+#gems:
+#  - jekyll-paginate
+#  - jekyll-gist
+#whitelist:
+#  - jekyll-gist

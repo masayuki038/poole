@@ -10,9 +10,13 @@ pre {
 
 code {
   padding: .25em .5em;
-  font-size: 85%;
+  //font-size: 85%;
   color: $code-color;
   background-color: #292929;
+  font-weight: 500;
+}
+div.highlighter-rouge pre.highlight code {
+  padding: 5px;
 }
 
 code.highlighter-rouge {
@@ -65,7 +69,7 @@ pre code table tbody tr:nth-child(odd) th {
     padding-right: .75rem;
     padding-left: .25rem;
     color: #999;
-    overflow-x: visible; // tweak vertical positions of lineno 
+    overflow-x: visible; // tweak vertical positions of lineno
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -73,24 +77,28 @@ pre code table tbody tr:nth-child(odd) th {
   }
 }
 
+td.gutter.gl {
+  width: 50px; // lineno width
+}
+
 // Gist via GitHub Pages
-// .gist .gist-file {
-//   font-family: Menlo, Monaco, "Courier New", monospace !important;
-// }
-// .gist .markdown-body {
-//   padding: 15px;
-// }
-// .gist pre {
-//   padding: 0;
-//   background-color: transparent;
-// }
-// .gist .gist-file .gist-data {
-//   font-size: .8rem !important;
-//   line-height: 1.4;
-// }
-// .gist code {
-//   padding: 0;
-//   color: inherit;
-//   background-color: transparent;
-//   border-radius: 0;
-// }
+ .gist .gist-file {
+   font-family: Menlo, Monaco, "Courier New", monospace !important;
+ }
+ .gist .markdown-body {
+   padding: 15px;
+ }
+ .gist pre {
+   padding: 0;
+   background-color: transparent;
+ }
+ .gist .gist-file .gist-data {
+   font-size: .8rem !important;
+   line-height: 1.4;
+ }
+ .gist code {
+   padding: 0;
+   color: inherit;
+   background-color: transparent;
+   border-radius: 0;
+ }

@@ -76,3 +76,44 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
+
+#blog-archives {
+  h2 {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    color: #aaa;
+    float: left;
+  }
+
+  article {
+    padding-top: 0em;
+    padding-left: 4.5em;
+    padding-bottom: 0.5em;
+
+    position: relative;
+
+    time {
+      top: 0.5em;
+      position: absolute;
+      text-align: right;
+      font-family: "MeiryoKe_PGothic","メイリオ",sans-serif;
+      font-size: 0.9rem;
+      color: #aaa;
+
+      .month {
+        text-transform: UPPERCASE;
+      }
+    }
+    
+    .title {
+      padding-left: 80px;
+      a {
+        color: #444;
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+}

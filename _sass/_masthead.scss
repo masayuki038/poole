@@ -9,9 +9,13 @@
 }
 
 .masthead-title {
+  font-family: "PT Sans","Helvetica Neue",Arial,sans-serif;
+  font-size: 1em;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
-  color: $gray-4;
+  margin-right: 15px;
+  color: $gray-3;
 
   a {
     color: inherit;
